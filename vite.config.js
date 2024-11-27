@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "b-store-vue",
+  base: "/b-store-vue/",
 });

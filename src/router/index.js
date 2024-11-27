@@ -42,7 +42,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/b-store-vue/"), // Add the base path for GitHub Pages
   routes,
 });
 
