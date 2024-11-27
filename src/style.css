@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1d1d1f;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --text: #fff;
+  --menu: #232123;
+  --text-color: #333;
+  --button: #20547f;
+  --button-hover: #0c4a6a;
+}
+
+.primary {
+  color: var(--text);
+}
+
+.bg-primary {
+  background-color: var(--menu);
+}
+
+.bg-secondary {
+  background-color: var(--menu);
+}
+
+.bttn {
+  background-color: var(--button);
+}
+
+.bttn:hover {
+  background-color: var(--button-hover);
+}
